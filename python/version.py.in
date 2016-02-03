@@ -1,0 +1,9 @@
+triqs_hash = "@TRIQS_GIT_HASH@"
+application_a_hash = "@APPLICATION_A_GIT_HASH@"
+
+def show_version():
+  print "\nYou are using 'application_a'  version %s, release %s\n"%(version, release)
+
+def show_git_hash():
+  print "\nYou are using 'application_a' git hash %s based on triqs git hash %s\n"%(application_a_hash, triqs_hash)
+

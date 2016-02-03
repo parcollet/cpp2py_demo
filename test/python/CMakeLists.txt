@@ -1,0 +1,2 @@
+triqs_add_python_test(TotoA1)
+triqs_add_python_test(TotoA2)
